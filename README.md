@@ -74,9 +74,6 @@ The U-Net architecture consists of:
 ## Training
 
 ```bash
-# Run the training script
-python train.py
-```
 
 Training parameters:
 - Optimizer: Adam (lr=1e-4)
@@ -90,16 +87,16 @@ Training parameters:
 Our model achieves the following performance metrics:
 
 - **Training Metrics**:
-  - Loss: [Your Best Training Loss]
-  - Accuracy: [Your Best Training Accuracy]
-  - IoU: [Your Best Training IoU]
-  - Dice Coefficient: [Your Best Training Dice]
+  - Loss: 0.0375
+  - Accuracy: 0.9861
+  - IoU: 1.9774
+  - Dice Coefficient: 2.5700
 
 - **Validation Metrics**:
-  - Loss: [Your Best Validation Loss]
-  - Accuracy: [Your Best Validation Accuracy]
-  - IoU: [Your Best Validation IoU]
-  - Dice Coefficient: [Your Best Validation Dice]
+  - Loss: 0.0358
+  - Accuracy: 0.9867
+  - IoU: 2.0873
+  - Dice Coefficient: 2.6429
 
 Sample predictions:
 ![Sample Prediction](path/to/sample_image.png)
@@ -113,11 +110,15 @@ The training process includes visualization of:
 - Dice coefficient
 - Sample predictions with original images, ground truth masks, and predicted masks
 
+## Citation
 
+Mallawa, P. (2022). DFUC2022 Train Release [Data set]. Kaggle. https://www.kaggle.com/datasets/pabodhamallawa/dfuc2022-train-release/data
 
 ## Acknowledgments
 
 - DFUC2022 dataset providers
 - U-Net architecture original paper
 - PyTorch community
+
+
 
