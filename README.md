@@ -73,8 +73,6 @@ The U-Net architecture consists of:
 
 ## Training
 
-```bash
-
 Training parameters:
 - Optimizer: Adam (lr=1e-4)
 - Loss: CrossEntropyLoss
