@@ -85,16 +85,16 @@ Training parameters:
 Our model achieves the following performance metrics:
 
 - **Training Metrics**:
-  - Loss: 0.0375
-  - Accuracy: 0.9861
-  - IoU: 1.9774
-  - Dice Coefficient: 2.5700
+  - Loss: 0.0366
+  - Accuracy: 0.9873
+  - IoU: 0.5219
+  - Dice Coefficient: 0.6645
 
 - **Validation Metrics**:
-  - Loss: 0.0358
-  - Accuracy: 0.9867
-  - IoU: 2.0873
-  - Dice Coefficient: 2.6429
+  - Loss: 0.0363
+  - Accuracy: 0.9874
+  - IoU: 0.5219
+  - Dice Coefficient: 0.6645
   
 
 ## Visualization
