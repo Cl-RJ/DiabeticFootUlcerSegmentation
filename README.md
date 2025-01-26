@@ -95,9 +95,7 @@ Our model achieves the following performance metrics:
   - Accuracy: 0.9867
   - IoU: 2.0873
   - Dice Coefficient: 2.6429
-
-Sample predictions:
-![Sample Prediction](path/to/sample_image.png)
+  
 
 ## Visualization
 
